@@ -7,7 +7,7 @@ import "../styles/Menu.css";
 export const Menu = () => {
   return( 
   <div className='menu'>
-      <h1 className='menuTitle'>Köftelerimiz</h1>
+      <h1 className='menuTitle'></h1>
       <div className='menuList'>
           {Data.map((menuItem , key)=>{
               return(
