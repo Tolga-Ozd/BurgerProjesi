@@ -6,15 +6,15 @@ import "../styles/Navbar.css"
 const Navbar = () => {
   return (
     <div className='navbar'>
-        <div className='main'>
+        <div  iv className='main'>
             <img src={Burgerlogo} alt="" />
-        <div className='mainLink'>
-            <Link to="/">Anasayfa</Link>
-            <Link to="/menu">Menü</Link>
-            <Link to="/about">Hakkımızda</Link>
-            <Link to="/contact">İletişim</Link>
+            <div className='mainLink'>
+              <Link to="/">Anasayfa</Link>
+              <Link to="/menu">Menü</Link>
+              <Link to="/about">Hakkımızda</Link>
+              <Link to="/contact">İletişim</Link>
+            </div>
         </div>
-      </div>
     </div>
   );
 };
