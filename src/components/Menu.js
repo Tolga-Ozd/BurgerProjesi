@@ -14,7 +14,7 @@ export const Menu = () => {
                   <MenuItem 
                   key ={key}
                   image = {menuItem.image}
-                  name = {menuItem.image}
+                  name = {menuItem.name}
                   content = {menuItem.content}
                   price = {menuItem.price}
 
