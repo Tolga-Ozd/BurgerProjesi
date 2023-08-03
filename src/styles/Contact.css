@@ -26,6 +26,7 @@
   font-weight: 10;
   font-size: 40px;
   margin-left: 30px;
+  margin-bottom: 0px;
 }
 
 form {
@@ -33,7 +34,7 @@ form {
   flex-direction: column;
   width: auto;
   height: auto;
-  padding: 30px;
+  padding: 20px;
 }
 
 form input {
@@ -69,7 +70,7 @@ form label {
 }
 
 .order{
-  margin-top: 40px;
+  margin-top: 30px;
   width: 140px;
   height: 40px;
   border: none;
@@ -79,3 +80,18 @@ form label {
   border-radius: 30px;
   color: white;
 }
+
+@media only screen and (max-width: 600px) {
+  .contact {
+    flex-direction: column;
+  }
+  .contact .leftSide {
+    display: none;
+  }
+
+  .contact .rightSide h1 {
+    font-size: 24px;
+    margin-left: 10px; 
+  }
+}
+

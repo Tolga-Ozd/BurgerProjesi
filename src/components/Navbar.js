@@ -6,7 +6,7 @@ import "../styles/Navbar.css"
 const Navbar = () => {
   return (
     <div className='navbar'>
-        <div className='main'>
+        <div  iv className='main'>
             <img src={Burgerlogo} alt="" />
             <div className='mainLink'>
               <Link to="/">Anasayfa</Link>
