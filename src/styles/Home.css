@@ -27,6 +27,12 @@
   border-radius: 30px;
 }
 
+.order button:hover{
+  background-color:#a52a2a;
+  color:white;
+  transition: linear 0.3s;
+}
+
 @media only screen and (max-width: 650px) {
   .mainPage {
     justify-content: center;

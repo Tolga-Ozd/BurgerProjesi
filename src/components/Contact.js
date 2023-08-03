@@ -1,5 +1,5 @@
 import React from 'react';
-import BannerImage from '../assets/banner.png';
+import BannerImage from '../assets/fast3.jpg';
 import '../styles/Contact.css';
 import { Link } from 'react-router-dom';
 
