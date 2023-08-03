@@ -1,6 +1,7 @@
 import React from 'react';
 import BannerImage from '../assets/banner.png';
 import '../styles/Contact.css';
+import { Link } from 'react-router-dom';
 
 export const Contact = () => {
   return (
@@ -30,6 +31,12 @@ export const Contact = () => {
             name="message"
             placeholder="Lütfen mesajınızı giriniz..."
           ></textarea>
+
+          <div className='order'> 
+                <Link to ="/" >
+                    <button >GÖNDER</button>
+                </Link> 
+              </div>
         </form>
       </div>
     </div>

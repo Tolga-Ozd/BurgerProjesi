@@ -68,14 +68,14 @@ form label {
   color: grey;
 }
 
-form button {
+.order{
   margin-top: 40px;
   width: 140px;
   height: 40px;
   border: none;
-  background-color: brown;
   color: whitesmoke;
   font-size: 15px;
   cursor: pointer;
   border-radius: 30px;
+  color: white;
 }
