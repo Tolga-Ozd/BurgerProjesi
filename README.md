@@ -8,5 +8,5 @@ I can quickly grasp new technologies and concepts to develop innovative and crea
 ## Check Out My Other Projects 
 If you enjoyed exploring this project, I invite you to check out my other projects as well. I am passionate about programming and have worked on a variety of exciting projects.
 
-##Burger Project:
-In this project, using HTML, CSS Frameworks and React Router Dom structure, home ,menu, about us, contact pages and a form were created and components were switched between these pages with React Router.
+## Burger Project:
+In this project, using HTML, CSS Frameworks and React Router Dom structure, home ,menu, about us, contact pages and a form were created and components were switched between these pages with React Router.In addition, MUI library was also used while creating the project.
